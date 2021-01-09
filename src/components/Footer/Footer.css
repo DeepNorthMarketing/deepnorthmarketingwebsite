@@ -1,0 +1,29 @@
+#cliffs,
+#trees {
+    display: none;
+}
+
+@media only screen and (min-width: 1px) {
+
+    #forest {
+        display: none;
+    }
+
+    #cliffs {
+        display: inline;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 40vh;
+    }
+
+    #trees {
+        display: inline;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 25vh;
+    }
+
+}
+

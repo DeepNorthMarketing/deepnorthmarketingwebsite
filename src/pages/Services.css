@@ -1,0 +1,57 @@
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 40%;
+    max-width: 30rem;
+    font-size: 20px;
+}
+
+.services-text h2 {
+    font-family: norse;
+    font-size: 4rem;
+}
+
+.services-text p {
+    margin-top: 1rem;
+}
+
+.all-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    height: 450px;
+}
+
+.individual-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.individual-services div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+.individual-services img {
+    height: 6rem;
+    padding: 0 .2rem 0 2.5rem;
+}
+

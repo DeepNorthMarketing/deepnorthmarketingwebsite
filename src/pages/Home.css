@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.home p {
+    font-family: norse;
+    font-size: 10rem;
+    color: #fff;
+}

@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1px) {
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #logo {
+        height: 5rem;
+        margin: 1rem 0 0 1rem;
+    }
+
+}
