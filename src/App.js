@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
 import Footer from './components/Footer/Footer';
@@ -17,6 +18,7 @@ const App = () => {
         <Switch>
           <Route path='/' exact><Home /></Route>
           <Route path='/services' exact><Services /></Route>
+          <Route path='/portfolio' exact><Portfolio /></Route>
           <Route path='/careers' exact><Careers /></Route>
           <Route path='/contact' exact><Contact /></Route>
         </Switch>

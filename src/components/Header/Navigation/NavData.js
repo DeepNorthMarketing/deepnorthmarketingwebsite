@@ -1,12 +1,12 @@
 export const NavData = [
   {
-    title: 'HOME',
-    path: '/',
+    title: 'SERVICES',
+    path: '/services',
     cName: 'nav-text'
   },
   {
-    title: 'SERVICES',
-    path: '/services',
+    title: 'PORTFOLIO',
+    path: '/portfolio',
     cName: 'nav-text'
   },
   {

@@ -1,0 +1,12 @@
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.portfolio p {
+    font-family: norse;
+    font-size: 5rem;
+    color: #fff;
+}
