@@ -5,27 +5,11 @@ import './Form.css';
 function Form() {
     return (
         <form className="contact-form">
-            <label>
-                <input type='text' name='firstName' placeholder='First Name' />
-            </label>
-            <label>
-                <input type='text' name='lastName' placeholder='Last Name' />
-            </label>
-            <label>
-                <input type='email' name='email' placeholder='Email'/>
-            </label>
-            <label>
-                <input type='tel' name='phone' placeholder='Phone' />
-            </label>
-            <label>
-                <input 
-                    type='textarea' 
-                    name='message' 
-                    placeholder='Message'
-                    cols='30'
-                    rows='5'
-                />
-            </label>
+            <input type='text' name='firstName' placeholder='First Name' />
+            <input type='text' name='lastName' placeholder='Last Name' />
+            <input type='email' name='email' placeholder='Email'/>
+            <input type='tel' name='phone' placeholder='Phone' />
+            <textarea name='message' rows="5" cols="39" placeholder='Message' />
             <button>SEND IT!</button>
         </form>
     );

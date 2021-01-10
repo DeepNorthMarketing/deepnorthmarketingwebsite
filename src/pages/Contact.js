@@ -4,8 +4,8 @@ import Form from '../components/Form/Form';
 import './Contact.css';
 const Contact = () => {
     return (
-        <div>
-            <div>
+        <div className='contact'>
+            <div className='contact-text'>
                 <h2>Connect with us!</h2>
                 <p>
                     We love watching the companies we work with grow. Working with Deep North is not just a one time transaction. It's a partnership and one that we are excited 
